@@ -20,3 +20,8 @@ var a = 10
 console.log(a)
 const arr = [1, 10, 34, 5, 6, 2]
 console.log(arr.sort((a,b)=>a-b))
+const Account = 100;
+function getAccount(){
+    console.log(Account);
+}
+getAccount();
